@@ -120,7 +120,11 @@ The typical workflow
 
         git clone https://github.com/<USER NAME>/sprint_tutorial
 
-  #. Build the project into your dev environment. Run the test suite.
+  #. Build the project into your dev environment. 
+    
+       python setup.py develop
+
+  #. Run the test suite.
 
   #. Branch off to a new branch for your work item::
 
